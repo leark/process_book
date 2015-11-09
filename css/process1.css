@@ -1,0 +1,45 @@
+body 
+{
+	background-color: #F0F8FF;
+	font-family: Verdana, sans-serif;
+}
+
+h1
+{
+	color: #121212;
+}
+
+.pictures img
+{
+	height: 320px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	height: 320px;
+	margin-bottom: 20px;
+}
+
+.column
+{
+	width: 47%;
+	margin-left: 2%;
+	float: left;
+}
+
+.content
+{
+	overflow: hidden;
+}
+
+.word
+{
+	line-height: 320px;
+	font-size: 30pt;
+	color: #121212;
+}
