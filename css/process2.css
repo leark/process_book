@@ -1,0 +1,30 @@
+body 
+{
+	background-color: #F0F8FF;
+	font-family: Verdana, sans-serif;
+}
+
+h1
+{
+	color: #121212;
+}
+
+.pictures img
+{
+	height: 320px;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	margin-bottom: 20px;
+}
+
+p
+{
+	padding-left: 20px;
+}
