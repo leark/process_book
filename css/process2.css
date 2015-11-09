@@ -9,7 +9,7 @@ h1
 	color: #121212;
 }
 
-.pictures img
+.pictures
 {
 	height: 320px;
 }
@@ -27,4 +27,9 @@ li
 p
 {
 	padding-left: 20px;
+}
+
+#storyboard
+{
+	height: 1000px;
 }
