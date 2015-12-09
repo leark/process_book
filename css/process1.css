@@ -43,3 +43,19 @@ li
 	font-size: 30pt;
 	color: #121212;
 }
+
+.nav
+{
+	display: inline-block;
+	border: black 1px solid;
+	border-radius: 5px;
+	padding: 3px;
+	color: black;
+	text-decoration: none;
+}
+
+.nav:visited, .nav:active, .nav:link, .nav:hover
+{
+	color: black;
+	text-decoration: none;
+}
