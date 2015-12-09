@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Process Books</title>
+    
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.js"></script>
+
+    <!-- Add ui-router library here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+    <!-- Custom code -->
+    <script src="js/process.js"></script>
+    <link href="css/process2.css" rel="stylesheet" type = "text/css"/>
+    
+  </head>
+  <body ng-controller="MainController">
+    <div>
+  		<nav>
+  			<a ui-sref="home" class="nav">Home</a> 
+  			<a href="process1.html" class="nav">Process 1</a>
+  			<a href="process2.html" class="nav">Process 2</a>
+  			<a href="process3.html" class="nav">Process 3</a>
+  			<a href="process4.html" class="nav">Process 4</a>
+  			<a href="process5.html" class="nav">Process 5</a>
+  			<a href="process6.html" class="nav">Process 6</a> 
+				<a ui-sref="process7" class="nav">Process 7</a> 
+				<a ui-sref="process8" class="nav">Process 8</a> 
+				<a ui-sref="process9" class="nav">Process 9</a>
+				<a ui-sref="process10" class="nav">Process 10</a> 
+  		</nav>
+	    <div class="container">
+	        <!-- This is where your content will display -->
+	    	<div ui-view></div>
+	    </div>
+
+			<footer>
+	      <hr>
+				<p>
+				Contact: <b>shl7<img src="http://www.washington.edu/computing/gifs/at.gif" alt='(at)'>uw.edu</b>
+				</p>
+				<hr>
+			</footer>
+		</div>
+	</body>
+</html>

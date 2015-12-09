@@ -33,3 +33,10 @@ p
 {
 	height: 1000px;
 }
+
+.nav
+{
+	display: inline-block;
+	border: black 1px solid;
+	border-radius: 5px;
+}
